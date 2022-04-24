@@ -7,7 +7,7 @@ namespace ObligatorioP2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Commit flopi!");
+            Console.WriteLine("Commit flopi2!");
 
         }
     }
