@@ -1,23 +1,26 @@
 ﻿<Properties StartupConfiguration="{4D8DB4C7-4C3F-40B2-9567-F41CCFF73F0C}|Default">
   <MonoDevelop.Ide.ItemProperties.ObligatorioP2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/Mozo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/System.cs">
     <Files>
-      <File FileName="ObligatorioP2/Program.cs" Line="15" Column="1" />
-      <File FileName="ObligatorioP2/Plato.cs" />
-      <File FileName="ObligatorioP2/Mozo.cs" Line="10" Column="1" />
-      <File FileName="ObligatorioP2/Repartidor.cs" />
-      <File FileName="ObligatorioP2/PlatoCantidad.cs" />
-      <File FileName="ObligatorioP2/Servicio.cs" />
+      <File FileName="ObligatorioP2/Program.cs" Line="14" Column="6" />
+      <File FileName="ObligatorioP2/Plato.cs" Line="43" Column="6" />
+      <File FileName="ObligatorioP2/Mozo.cs" Line="21" Column="30" />
+      <File FileName="ObligatorioP2/Repartidor.cs" Line="5" Column="6" />
+      <File FileName="ObligatorioP2/PlatoCantidad.cs" Line="11" Column="1" />
+      <File FileName="ObligatorioP2/Servicio.cs" Line="14" Column="38" />
       <File FileName="ObligatorioP2/Local.cs" />
-      <File FileName="ObligatorioP2/Delivery.cs" />
-      <File FileName="ObligatorioP2/Persona.cs" />
-      <File FileName="ObligatorioP2/Sistema.cs" />
+      <File FileName="ObligatorioP2/Delivery.cs" Line="11" Column="1" />
+      <File FileName="ObligatorioP2/Persona.cs" Line="4" Column="39" />
+      <File FileName="ObligatorioP2/IValidacion.cs" Line="6" Column="24" />
+      <File FileName="ObligatorioP2/System.cs" Line="43" Column="109" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ObligatorioP2" expanded="True">
-            <Node name="ObligatorioP2" expanded="True" />
+            <Node name="ObligatorioP2" expanded="True">
+              <Node name="System.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

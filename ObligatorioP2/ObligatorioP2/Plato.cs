@@ -25,7 +25,19 @@ namespace ObligatorioP2
             Nombre = nombre;
             Precio = precio;
         }
-        //Metod de verificación del precio va a en IValidacion
+        //Metod de verificación del precio va a en IValidacion????
+
+        public bool PrecioEsValido()
+        {
+            bool esValido = false;
+
+            if (Precio >= PrecioMinimo)
+            {
+                esValido = true;
+            }
+
+            return esValido;
+        }
 
        
     }

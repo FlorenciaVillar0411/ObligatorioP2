@@ -1,7 +1,7 @@
 ﻿using System;
 namespace ObligatorioP2
 {
-    public class Persona
+    public class Persona : IValidacion
     {
         public int Id { get; set; }
 

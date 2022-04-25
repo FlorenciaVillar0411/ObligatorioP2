@@ -1,0 +1,13 @@
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/bin/Debug/netcoreapp3.1/ObligatorioP2.deps.json
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/bin/Debug/netcoreapp3.1/ObligatorioP2.runtimeconfig.json
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/bin/Debug/netcoreapp3.1/ObligatorioP2.runtimeconfig.dev.json
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/bin/Debug/netcoreapp3.1/ObligatorioP2.dll
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/bin/Debug/netcoreapp3.1/ObligatorioP2.pdb
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.csproj.AssemblyReference.cache
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.AssemblyInfoInputs.cache
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.AssemblyInfo.cs
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.csproj.CoreCompileInputs.cache
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.dll
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.pdb
+/Users/florenciavillar/Documents/ORT/ObligatorioP2/ObligatorioP2/ObligatorioP2/obj/Debug/netcoreapp3.1/ObligatorioP2.genruntimeconfig.cache

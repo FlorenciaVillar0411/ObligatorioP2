@@ -36,28 +36,12 @@ namespace ObligatorioP2
 
             foreach (PlatoCantidad pc in platos)
             {
-                sumaMontos += pc.Plato.Precio * pc.Cantidad);
+                sumaMontos += pc.Plato.Precio * pc.Cantidad;
             }
             return sumaMontos;
         }
 
-        //public double CalcularCostoFinal()
-        //{
-        //    // 1 - Sumar tods los costos de los juegos, teniendo en cuenta las cantidades.
-        //    // 2 - Aplico el descuento correspondiente al Cliente
-        //    // 3 - Aplicamos el descuento correspondiente al cupon del dia.
-
-        //    double sumaMontos = 0;
-
-        //    foreach (JuegoCantidad jc in carrito)
-        //    {
-        //        sumaMontos = sumaMontos + jc.Juego.PrecioLista * jc.Cantidad);
-
-        //    }
-        //    sumaMontos = sumaMontos * Cliente.CalcularDescuento();
-        //    sumaMontos = sumaMontos * Cupon;
-        //    return sumaMontos;
-        //}
+        
 
     }
 }
