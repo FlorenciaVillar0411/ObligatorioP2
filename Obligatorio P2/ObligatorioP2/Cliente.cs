@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
 namespace ObligatorioP2
 {
     public class Cliente : Persona
@@ -94,7 +96,17 @@ namespace ObligatorioP2
             return esValidoCliente;
         }
 
+        public override int CompareTo([AllowNull] Persona other)
+        {
+            return base.CompareTo(other);
+        }
 
+        public override string ToString()
+        {
+
+            return $"{Apellido},{Nombre}";
+
+        }
     }
 }
 
@@ -103,5 +115,3 @@ namespace ObligatorioP2
         // - nombre y apellido
         // - email
         // - password
-    }
-}

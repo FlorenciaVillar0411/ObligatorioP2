@@ -26,7 +26,7 @@ namespace ObligatorioP2
             Apellido = apellido;
         }
 
-        public int CompareTo([AllowNull] Persona other)
+        public virtual int CompareTo([AllowNull] Persona other)
         {
             if(Apellido.CompareTo(other.Apellido) > 0)
             {
@@ -53,7 +53,10 @@ namespace ObligatorioP2
             }
         }
         public abstract bool EsValido();
+
+        public abstract override string ToString();
         
-        
+
+
     }
 }

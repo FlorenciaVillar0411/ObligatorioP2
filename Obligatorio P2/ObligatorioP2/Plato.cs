@@ -70,8 +70,13 @@ namespace ObligatorioP2
             }
             return esValido;
         }
-            
+
+        public override string ToString()
+        {
+            return $"{Nombre} : {Precio}";
         }
 
     }
+
 }
+

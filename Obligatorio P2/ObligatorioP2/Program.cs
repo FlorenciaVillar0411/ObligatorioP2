@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ObligatorioP2
 {
@@ -8,6 +9,10 @@ namespace ObligatorioP2
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Commit flopi2+" +"!");
+            System s = new System();
+            
+            Console.WriteLine(s.GetMozos());
+            
 
             // hacer las instancias antes de dar el alta.
 
