@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{4D8DB4C7-4C3F-40B2-9567-F41CCFF73F0C}|Default">
+  <MonoDevelop.Ide.ItemProperties.ObligatorioP2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/System.cs">
+    <Files>
+      <File FileName="ObligatorioP2/System.cs" Line="148" Column="1" />
+      <File FileName="ObligatorioP2/Cliente.cs" />
+      <File FileName="ObligatorioP2/Delivery.cs" />
+      <File FileName="ObligatorioP2/IValidacion.cs" />
+      <File FileName="ObligatorioP2/Local.cs" />
+      <File FileName="ObligatorioP2/Repartidor.cs" />
+      <File FileName="ObligatorioP2/Persona.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ObligatorioP2" expanded="True">
+            <Node name="ObligatorioP2" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="System.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
