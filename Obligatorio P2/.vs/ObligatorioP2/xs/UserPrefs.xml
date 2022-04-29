@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{4D8DB4C7-4C3F-40B2-9567-F41CCFF73F0C}|Default">
   <MonoDevelop.Ide.ItemProperties.ObligatorioP2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/Mozo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/Cliente.cs">
     <Files>
-      <File FileName="ObligatorioP2/System.cs" Line="186" Column="1" />
-      <File FileName="ObligatorioP2/Cliente.cs" Line="109" Column="10" />
+      <File FileName="ObligatorioP2/System.cs" Line="138" Column="1" />
+      <File FileName="ObligatorioP2/Cliente.cs" Line="66" Column="18" />
       <File FileName="ObligatorioP2/Delivery.cs" />
       <File FileName="ObligatorioP2/IValidacion.cs" />
-      <File FileName="ObligatorioP2/Local.cs" Line="1" Column="1" />
-      <File FileName="ObligatorioP2/Repartidor.cs" Line="55" Column="1" />
-      <File FileName="ObligatorioP2/Persona.cs" Line="62" Column="2" />
-      <File FileName="ObligatorioP2/Plato.cs" Line="76" Column="2" />
-      <File FileName="ObligatorioP2/Program.cs" Line="7" Column="40" />
-      <File FileName="ObligatorioP2/Mozo.cs" Line="4" Column="21" />
+      <File FileName="ObligatorioP2/Local.cs" />
+      <File FileName="ObligatorioP2/Repartidor.cs" />
+      <File FileName="ObligatorioP2/Persona.cs" />
+      <File FileName="ObligatorioP2/Plato.cs" />
+      <File FileName="ObligatorioP2/Program.cs" />
+      <File FileName="ObligatorioP2/Mozo.cs" />
+      <File FileName="ObligatorioP2/Servicio.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +20,7 @@
           <Node name="ObligatorioP2" expanded="True">
             <Node name="ObligatorioP2" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Mozo.cs" selected="True" />
+              <Node name="Cliente.cs" selected="True" />
             </Node>
           </Node>
         </State>

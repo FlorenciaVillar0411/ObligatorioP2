@@ -51,5 +51,10 @@ namespace ObligatorioP2
 
             return sumaMontos + costoEnvio;
         }
+
+        public override string ToString()
+        {
+            return $"Servicio para: {Cliente.Nombre}, en la fecha: {Fecha}.";
+        }
     }
 }

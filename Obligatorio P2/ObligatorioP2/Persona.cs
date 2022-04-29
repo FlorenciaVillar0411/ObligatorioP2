@@ -54,7 +54,6 @@ namespace ObligatorioP2
         }
         public abstract bool EsValido();
 
-        public abstract override string ToString();
         
 
 

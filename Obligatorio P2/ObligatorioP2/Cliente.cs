@@ -27,7 +27,7 @@ namespace ObligatorioP2
 
         public override bool EsValido()
         {
-            bool esValido = false;
+            bool stringTieneNumero = false;
             bool esValidoCliente = false;
             bool hayArroba = false;
             bool hayNum = false;
@@ -36,14 +36,13 @@ namespace ObligatorioP2
 
             if (Nombre != "" && Apellido != "")
             {
-                esValido = true;
 
                 for (int i = 0; i < Nombre.Length; i++)
                 {
                     char caracter = Nombre[i];
                     if (Char.IsNumber(caracter))
                     {
-                        esValido = false;
+                        stringTieneNumero = true;
                     }
                 }
 
@@ -52,7 +51,7 @@ namespace ObligatorioP2
                     char caracter2 = Apellido[i];
                     if (Char.IsNumber(caracter2))
                     {
-                        esValido = false;
+                        stringTieneNumero = true;
                     }
                 }
 
@@ -61,11 +60,12 @@ namespace ObligatorioP2
             for (int i = 1; i < Email.Length - 1; i++)
             {
                 char caracter = Email[i];
-                if (caracter.Equals("@"))
+                if (Char.ToString(caracter) == "@")
                 {
                     hayArroba = true;
                 }
             }
+
             if (Password.Length >= 6)
             {
                 for (int i = 0; i < Password.Length; i++)
@@ -75,20 +75,24 @@ namespace ObligatorioP2
                     {
                         hayNum = true;
                     }
-                    if (Char.ToUpper(caracter) == caracter)
+                    else
                     {
-                        hayMayus = true;
-                    }
-                    if (Char.ToLower(caracter) == caracter)
-                    {
-                        hayMinus = true;
+                        if (Char.ToUpper(caracter) == caracter)
+                        {
+                            hayMayus = true;
+                        }
+                        if (Char.ToLower(caracter) == caracter)
+                        {
+                            hayMinus = true;
+                        }
+
                     }
 
                 }
 
             }
 
-            if (hayArroba && hayNum && hayMinus && hayMayus && esValido)
+            if (hayArroba && hayNum && hayMinus && hayMayus && !stringTieneNumero)
             {
                 esValidoCliente = true;
             }
@@ -103,9 +107,7 @@ namespace ObligatorioP2
 
         public override string ToString()
         {
-
             return $"{Apellido},{Nombre}";
-
         }
     }
 }

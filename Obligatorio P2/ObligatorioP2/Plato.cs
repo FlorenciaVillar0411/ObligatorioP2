@@ -73,7 +73,7 @@ namespace ObligatorioP2
 
         public override string ToString()
         {
-            return $"{Nombre} : {Precio}";
+            return $"{Nombre}: {Precio}.   ";
         }
 
     }
