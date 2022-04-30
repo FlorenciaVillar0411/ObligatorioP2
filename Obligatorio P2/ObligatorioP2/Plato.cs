@@ -11,7 +11,7 @@ namespace ObligatorioP2
 
         public double Precio { get; set; }
 
-        public static double PrecioMinimo { get; set; }
+        public static double PrecioMinimo { get; set; } = 100;
 
 
         public Plato()
@@ -25,19 +25,8 @@ namespace ObligatorioP2
             Nombre = nombre;
             Precio = precio;
         }
-        //Metod de verificación del precio va a en IValidacion????
 
-        public bool PrecioEsValido()
-        {
-            bool esValido = false;
-
-            if (Precio >= PrecioMinimo)
-            {
-                esValido = true;
-            }
-
-            return esValido;
-        }
+        
 
         public bool EsValido()
         {

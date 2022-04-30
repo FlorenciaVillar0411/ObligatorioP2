@@ -134,9 +134,13 @@ namespace ObligatorioP2
 
         public bool ModificarPrecioMinimoPlato(double precioNuevo)
         {
+            if (precioNuevo != Plato.PrecioMinimo && precioNuevo>=0)
+            {
             Plato.PrecioMinimo = precioNuevo;
             return true;
 
+            }
+            return false;
         }
 
         //public Mozo AltaMozo(string nombre, string apellido, int numeroFuncionario)

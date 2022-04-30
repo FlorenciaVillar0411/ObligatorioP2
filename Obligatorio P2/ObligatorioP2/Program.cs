@@ -95,64 +95,55 @@ namespace ObligatorioP2
 
                         break;
 
-                        //case 4:
-                        //    Console.WriteLine("Ingrese un monto");
-                        //    double monto1 = Double.Parse(Console.ReadLine());
+                        case 4:
+                            double precioMinimoActual = Plato.PrecioMinimo;
+                            Console.WriteLine($"El precio mínimo actual es: {precioMinimoActual}");
 
-                        //    Console.WriteLine("Fecha de inicio");
-                        //    DateTime f1 = DateTime.Parse(Console.ReadLine());
+                            Console.WriteLine("Ingrese nuevo precio mínimo del plato");
+                            double precioNuevo = Double.Parse(Console.ReadLine());
+                            bool precioCambiado = s.ModificarPrecioMinimoPlato(precioNuevo);
 
-                        //    Console.WriteLine("Fecha de fin");
-                        //    DateTime f2 = DateTime.Parse(Console.ReadLine());
 
-                        //    List<Venta> ListaFiltrada2 = s.GetVentasSuperenEntreFechas(monto1, f1, f2);
+                        if (precioCambiado) 
+                        {
+                            Console.WriteLine($"El nuevo precio mínimo es : {precioNuevo}");
 
-                        //    if (ListaFiltrada2.Count > 0)
-                        //    {
+                        }
+                        else
+                        {
+                            Console.WriteLine("No se cambia el precio");
+                        }
+                        Console.ReadKey();
 
-                        //        foreach (Venta v in ListaFiltrada2)
-                        //        {
-                        //            Console.WriteLine(v);
-                        //        }
-                        //    }
-                        //    else
-                        //    {
-                        //        Console.WriteLine("No hay registros");
-                        //    }
 
-                        //    break;
+                        break;
 
-                        //case 5:
+                    case 5:
 
-                        //    foreach (Cliente c in s.GetClientes())
-                        //    {
-                        //        Console.WriteLine(c);
-                        //    }
-                        //    Console.ReadKey();
-                        //    break;
+                        Console.WriteLine("Ingrese el nombre del Mozo");
+                        string nombre = Console.ReadLine();
 
-                        //case 6:
+                        Console.WriteLine("Ingrese el apellido del Mozo");
+                        string apellido = Console.ReadLine();
 
-                        //    Console.WriteLine("Ingrese el nombre del juego");
-                        //    string nombreJuego = Console.ReadLine();
+                        Console.WriteLine("Ingrese número de funcionario");
+                        int nroFuncionario = Int32.Parse(Console.ReadLine());
 
-                        //    List<Cliente> ClientesCompraron = s.GetClientesHayanComprado(nombreJuego);
+                        Mozo m = new Mozo(nombre, apellido, nroFuncionario);
 
-                        //    if (ClientesCompraron.Count > 0)
-                        //    {
-                        //        foreach (Cliente c in ClientesCompraron)
-                        //        {
-                        //            Console.WriteLine(c);
-                        //        }
+                        if (s.AltaMozo(m) != null)
+                        {
+                            Console.WriteLine($"El nuevo mozo es: {m}");
 
-                        //    }
-                        //    else
-                        //    {
-                        //        Console.WriteLine("No hay registros");
-                        //    }
-                        //    Console.ReadKey();
-                        //    break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("El mozo no se puede registrar - verifique que los campos se hayan completado o cambie el número de funcionario");
+                        }
+                        Console.ReadKey();
 
+
+                        break;
 
 
                 }
@@ -168,9 +159,8 @@ namespace ObligatorioP2
             Console.WriteLine("1 - Listar Platos");
             Console.WriteLine("2 - Listar Clientes Ordenados por apellido/nombre");
             Console.WriteLine("3 - Listar servicios dado un repartidor y un rango de fechas");
-            Console.WriteLine("4 - Juegos que superen un monto dado entre fechas");
-            Console.WriteLine("5 - Listar clientes");
-            Console.WriteLine("6 - Listar clientes que al menos hayan comprado un juego dado");
+            Console.WriteLine("4 - Cambiar precio mínimo del plato");
+            Console.WriteLine("5 - Dar de alta un mozo");
 
         }
 

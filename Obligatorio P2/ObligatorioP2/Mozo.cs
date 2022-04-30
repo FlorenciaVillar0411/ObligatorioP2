@@ -55,7 +55,7 @@ namespace ObligatorioP2
         public override string ToString()
         {
 
-            return $"{Apellido},{Nombre}.           ";
+            return $"{Apellido}, {Nombre}. Su número de funcionario es: {NumeroFuncionario}";
 
         }
     }
