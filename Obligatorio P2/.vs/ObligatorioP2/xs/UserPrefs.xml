@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{4D8DB4C7-4C3F-40B2-9567-F41CCFF73F0C}|Default">
   <MonoDevelop.Ide.ItemProperties.ObligatorioP2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/Cliente.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObligatorioP2/PlatoCantidad.cs">
     <Files>
-      <File FileName="ObligatorioP2/System.cs" Line="138" Column="1" />
-      <File FileName="ObligatorioP2/Cliente.cs" Line="66" Column="18" />
-      <File FileName="ObligatorioP2/Delivery.cs" />
-      <File FileName="ObligatorioP2/IValidacion.cs" />
-      <File FileName="ObligatorioP2/Local.cs" />
-      <File FileName="ObligatorioP2/Repartidor.cs" />
-      <File FileName="ObligatorioP2/Persona.cs" />
-      <File FileName="ObligatorioP2/Plato.cs" />
-      <File FileName="ObligatorioP2/Program.cs" />
-      <File FileName="ObligatorioP2/Mozo.cs" />
-      <File FileName="ObligatorioP2/Servicio.cs" />
+      <File FileName="ObligatorioP2/System.cs" Line="152" Column="37" />
+      <File FileName="ObligatorioP2/Cliente.cs" Line="115" Column="9" />
+      <File FileName="ObligatorioP2/Delivery.cs" Line="58" Column="10" />
+      <File FileName="ObligatorioP2/IValidacion.cs" Line="6" Column="32" />
+      <File FileName="ObligatorioP2/Local.cs" Line="14" Column="1" />
+      <File FileName="ObligatorioP2/Repartidor.cs" Line="1" Column="1" />
+      <File FileName="ObligatorioP2/Persona.cs" Line="1" Column="1" />
+      <File FileName="ObligatorioP2/Plato.cs" Line="28" Column="1" />
+      <File FileName="ObligatorioP2/Program.cs" Line="13" Column="1" />
+      <File FileName="ObligatorioP2/Mozo.cs" Line="60" Column="10" />
+      <File FileName="ObligatorioP2/Servicio.cs" Line="11" Column="1" />
+      <File FileName="ObligatorioP2/PlatoCantidad.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +21,7 @@
           <Node name="ObligatorioP2" expanded="True">
             <Node name="ObligatorioP2" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Cliente.cs" selected="True" />
+              <Node name="PlatoCantidad.cs" selected="True" />
             </Node>
           </Node>
         </State>
